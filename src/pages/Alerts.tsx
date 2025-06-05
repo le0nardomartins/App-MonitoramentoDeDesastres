@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Alerts = () => {
   const [alertType, setAlertType] = useState<string>('all');
